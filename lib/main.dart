@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
           title: Text("Awesome App"),
         ),
         body: Container(
+          color: Colors.blue,
           child: Center(child: Text("hi flutter")),
         ));
   }
